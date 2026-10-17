@@ -1,0 +1,30 @@
+{
+  "name": "omeka-gtm-mcp-server",
+  "version": "0.2.0",
+  "description": "MCP server (stdio) for the Omeka S REST API of the Gouda Tijdmachine.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20.6"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node --env-file=.env dist/server.js",
+    "dev": "tsx --env-file=.env src/server.ts",
+    "test": "node --import tsx --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gouda-tijdmachine/Omeka-S-local-MCP-server.git"
+  },
+  "homepage": "https://github.com/gouda-tijdmachine/Omeka-S-local-MCP-server#readme"
+}
