@@ -319,3 +319,7 @@ tests/               unit tests (values, annotations, blocks, query building) an
 - [ ] Media file upload from a local path (multipart)
 - [ ] Automatic data type for `resource` links that point to item sets or media
 - [ ] Resource template validation (required properties, allowed data types) before writing
+
+## License
+
+GPL-3.0-or-later. See [LICENSE](LICENSE).

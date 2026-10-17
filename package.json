@@ -26,5 +26,6 @@
     "type": "git",
     "url": "git+https://github.com/gouda-tijdmachine/Omeka-S-local-MCP-server.git"
   },
-  "homepage": "https://github.com/gouda-tijdmachine/Omeka-S-local-MCP-server#readme"
+  "homepage": "https://github.com/gouda-tijdmachine/Omeka-S-local-MCP-server#readme",
+  "license": "GPL-3.0-or-later"
 }
